@@ -37,7 +37,7 @@ public class Notas {
         this.nota4 = nota4;
     }
 
-    public void calculoMedia (){
-        System.out.println("A media das 4 notas é igual a " + (getNota1() + getNota2() + getNota3() + getNota4()) / 4);
+    public float calculoMedia (){
+        return (getNota1() + getNota2() + getNota3() + getNota4()) / 4;
     }
 }
