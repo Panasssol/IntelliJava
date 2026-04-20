@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Colecoes-parte-2/Colecoes-parte-2.iml" filepath="$PROJECT_DIR$/Colecoes-parte-2/Colecoes-parte-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProjectTest.iml" filepath="$PROJECT_DIR$/ProjectTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarefa_Classes/Tarefa_Classes.iml" filepath="$PROJECT_DIR$/Tarefa_Classes/Tarefa_Classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarefa_ControleDeFluxo/Tarefa_ControleDeFluxo.iml" filepath="$PROJECT_DIR$/Tarefa_ControleDeFluxo/Tarefa_ControleDeFluxo.iml" />
