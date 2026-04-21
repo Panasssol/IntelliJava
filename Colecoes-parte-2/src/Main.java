@@ -31,5 +31,22 @@ public class Main {
         System.out.println("Lista de nomes ordenada");
         Collections.sort(listaNomes);
         System.out.println(listaNomes);
+
+        List<Pessoa> pessoas = new ArrayList<Pessoa>();
+
+        Pessoa a = new Pessoa("Matheus Panassol", 26, "Rua 123 N°456", "Ciencia da computação");
+        Pessoa b = new Pessoa("Antonio", 50, "Rua 000 N°000", "Medicina");
+        Pessoa c = new Pessoa("Fulano", 16, "Rua 987 N°654", "Engenharia de software");
+        pessoas.add(a);
+        pessoas.add(b);
+        pessoas.add(c);
+        System.out.println("Lista de pessoas não ordenada");
+        System.out.println(pessoas);
+
+        Collections.sort(pessoas);
+        System.out.println("Lista de pessoas ordenada pelo nome");
+        System.out.println(pessoas);
+
+
     }
 }
