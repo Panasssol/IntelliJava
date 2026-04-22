@@ -4,6 +4,12 @@ public class Pessoa implements Comparable<Pessoa>{
     private int idade;
     private String endereco;
     private String curso;
+    private String sexo;
+
+    public Pessoa(String nome, String sexo) {
+        this.nome = nome;
+        this.sexo = sexo;
+    }
 
     public Pessoa(String nome, int idade, String endereco, String curso) {
         this.nome = nome;
@@ -42,6 +48,14 @@ public class Pessoa implements Comparable<Pessoa>{
 
     public void setEndereco(String endereco) {
         this.endereco = endereco;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
 
     @Override
